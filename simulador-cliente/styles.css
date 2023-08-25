@@ -1,0 +1,155 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+
+  color: #004274;
+}
+
+.logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%; /* Certifique-se de que a div logo tenha uma altura definida */
+  background-image: linear-gradient(to right, #004274, #004274, #44ac34);
+  padding: 15px 100px;
+  color: #fff;
+}
+
+.logo img {
+  width: 100px;
+}
+
+.calculator {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 10px 30px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border: 1px solid #004274;
+}
+
+h3 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 1.2rem;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+
+input[type="text"],
+select {
+  width: 200px;
+  padding: 8px;
+  margin-bottom: 15px;
+  border: none;
+  border-bottom: 1px solid #004274;
+  border-radius: 3px;
+  font-family: 'Poppins', sans-serif;
+  background-color: transparent;
+  outline: none;
+  font-size: 18px;
+  color: #004274;
+}
+
+input[type="text"]:focus, select:focus {
+  box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+}
+
+.input-section {
+  display: flex;
+  align-items: start;
+  gap: 20px;
+}
+
+.options {
+  display: flex;
+  gap: 10px;
+}
+
+#calcular{
+  width: 100%;
+  margin: 10px;
+}
+
+#calcular:hover {
+  background-color: #44ac34;
+  transition: 0.5s;
+}
+
+
+.bandeira-options {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+  align-items: center;
+}
+
+.bandeira-options label {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+}
+
+.bandeira-options img {
+  width: 60px;
+  margin-bottom: 5px;
+}
+
+img[alt="Mastercard"] {
+  width: 110px;
+}
+
+.cost-section {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #004274;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: white;
+  color: #004274;
+}
+
+th,
+td {
+  padding: 8px;
+  text-align: center;
+  border: 1px solid #ccc;
+}
+
+th {
+  background-color: #004274;
+  color: #fff;
+}
+
+.recebe-col{
+  background-color: #44ac34;
+}
+

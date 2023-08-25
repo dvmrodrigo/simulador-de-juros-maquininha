@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <title>Calculadora de Juros</title>
+  </head>
+  <body>
+    <div class="calculator">
+      <div class="logo">
+        <img src="assets/LOGO-XEGOOPAY.png" alt="Logo XegôoPay" />
+        <h3>Calculadora de Taxas</h3>
+      </div>
+      
+
+      <div class="bandeira-section">
+        <label>Selecione a Bandeira:</label>
+        <div class="bandeira-options">
+          <label for="visa"
+            ><img
+              src="https://site.getnet.com.br/wp-content/uploads/2022/10/logo-visa.png"
+              alt="Visa"
+          /></label>
+          <input type="radio" name="bandeira" id="visa" value="visa" />
+          <label for="mastercard"
+            ><img
+              src="https://site.getnet.com.br/wp-content/uploads/2022/10/logo-mastercard.png"
+              alt="Mastercard"
+          /></label>
+          <input
+            type="radio"
+            name="bandeira"
+            id="mastercard"
+            value="mastercard"
+          />
+
+          <label for="elo"
+            ><img
+              src="https://site.getnet.com.br/wp-content/uploads/2022/10/logo-elo.png"
+              alt="Elo"
+          /></label>
+          <input type="radio" name="bandeira" id="elo" value="elo" />
+          <label for="hiper"
+            ><img
+              src="https://site.getnet.com.br/wp-content/uploads/2022/10/logo-hipercard.png"
+              alt="hiper"
+          /></label>
+          <input type="radio" name="bandeira" id="hiper" value="hiper" />
+        </div>
+      </div>
+
+      <div class="input-section">
+        <div>
+          <label for="valor">Valor da Venda:</label>
+          <input type="text" id="valor" placeholder="R$0.00" />
+        </div>
+
+        <!-- <div class="cost-section"> -->
+        <div>
+          <label>Tipo de Cálculo:</label>
+          <div class="options">
+            <label
+              ><input
+                type="radio"
+                name="tipo-calculo"
+                value="credito"
+                checked
+              />
+              Crédito</label
+            >
+            <label
+              ><input type="radio" name="tipo-calculo" value="debito" />
+              Débito</label
+            >
+            <label
+              ><input type="radio" name="tipo-calculo" value="cliente" />
+              Parcelado Cliente</label
+            >
+          
+            
+          </div>
+          <button id="calcular">Calcular</button>
+        </div>
+      </div>
+
+      <table>
+        <thead>
+          
+        </thead>
+        <tbody id="tabelaParcelas">
+          <!-- Tabela será preenchida dinamicamente -->
+        </tbody>
+      </table>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
