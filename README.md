@@ -30,4 +30,8 @@ Rodrigo Amaral
 
 - Agradecimento a quem inspirou ou ajudou no desenvolvimento do projeto.
 
+## Screenshots
+
+![Exemplo de Imagem 1](screenshots/Simulacao.png)
+![Exemplo de Imagem 2](screenshots/Simulador.png)
 
