@@ -32,6 +32,6 @@ Rodrigo Amaral
 
 ## Screenshots
 
-![Exemplo de Imagem 1](screenshots/Simulacao.png)
-![Exemplo de Imagem 2](screenshots/Simulador.png)
+![Exemplo de Imagem 1](simulador-cliente/screenshots/Simulacao.png)
+![Exemplo de Imagem 2](simulador-cliente/screenshots/Simulador.png)
 
